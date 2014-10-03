@@ -42,7 +42,7 @@ object Window {
 		}
 
 		val randomize_uuid = create_option("Randomize UUIDs: ", true)
-		val nudge_dates = create_option("Nudge dates: ", true)
+		val nudge_dates = create_option("Nudge dates: ", false)
 
 		// Buttons
 		val browse_btn = new JButton("Select input file")
