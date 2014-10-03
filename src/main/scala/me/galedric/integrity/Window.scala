@@ -50,7 +50,7 @@ object Window {
 
 		val fc = new JFileChooser();
 		fc.setFileSelectionMode(JFileChooser.FILES_ONLY)
-		fc.setFileFilter(new LogFilter)
+		fc.setFileFilter(new CircuitFilter)
 
 		bind(browse_btn) {
 			if (fc.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
